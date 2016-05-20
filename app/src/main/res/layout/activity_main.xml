@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <ImageView
+        android:layout_width="264dp"
+        android:layout_height="235dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/title"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="121dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/map"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39dp" />
+    <ImageView
+        android:layout_width="121dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/menu"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="39dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="施工地圖總覽"
+        android:id="@+id/Button01"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:background="#ee326631"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="false"
+        android:layout_marginRight="@dimen/abc_action_bar_default_padding_end_material" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="施工資訊列表"
+        android:id="@+id/Button02"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:background="#ee326631"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_toEndOf="@+id/imageView3"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

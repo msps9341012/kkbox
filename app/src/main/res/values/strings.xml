@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">台北施工報你知</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">施工地圖</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_list">今日施工列表</string>
+</resources>
