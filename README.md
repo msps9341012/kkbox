@@ -25,7 +25,7 @@ Icon和主畫面
 
 地圖
 
-![地圖](https://github.com/msps9341012/kkbox/blob/master/map.jpg)   
+![地圖](https://github.com/msps9341012/kkbox/blob/master/map.png)   
 
 表單
 
